@@ -35,6 +35,30 @@ The "getting started" guide including [FAQ](https://scratch.mit.edu/developers#f
 documentation](https://github.com/scratchfoundation/scratch-blocks/wiki/Design) can be found in the
 [wiki](https://github.com/scratchfoundation/scratch-blocks/wiki).
 
+### Extra Installation Details
+The wiki's guide to getting modules installed and the repo up and running are a bit out of date. Here are our steps to get it working:
+
+#### Installation Steps
+1. 
+2.  Install the google closure library by running `npm install google-closure-library` in the root directory.
+3. Run `npm install --save google-closure-compiler` to install the closure compiler. 
+4. Install Java
+5. . Run `npm install`
+
+> [!NOTE]
+> You might encounter an error like this:`npm error code 2`. This is benign, ignore it. Regardless, you should still get these files:
+- `blockly_uncompressed_horizontal.js`
+- `blockly_uncompressed_vertical.js`
+- `blocks_compressed_horizontal.js`
+- `blocks_compressed_vertical.js`
+- `blocks_compressed.js`
+
+#### Linking to BCI-Buddy Frontend
+1. Run `npm link` to expose local package to other projects.
+2. in Terminal, navigate to our frontend repo (BCI_Buddy_GPI for now), and run `npm link scratch-blocks` to link to the local package.
+3. Repeat steps 1-2 for scratch-vm, to link vm to frontend
+4. In scratch-blocks and scratch-vm, run `npm run watch` to watch for changes.
+
 ## Donate
 
 We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a
