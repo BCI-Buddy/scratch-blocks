@@ -39,7 +39,7 @@ documentation](https://github.com/scratchfoundation/scratch-blocks/wiki/Design) 
 The wiki's guide to getting modules installed and the repo up and running are a bit out of date. Here are our steps to get it working:
 
 #### Installation Steps
-1. 
+1. Clone or download this repo
 2.  Install the google closure library by running `npm install google-closure-library` in the root directory.
 3. Run `npm install --save google-closure-compiler` to install the closure compiler. 
 4. Install Java
