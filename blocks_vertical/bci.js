@@ -25,7 +25,6 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-console.log(Blockly.Msg.MOTION_MOVESTEPS);
 Blockly.Blocks['connect_to_amp'] = {
   /**
    * Block to move steps.
@@ -33,14 +32,14 @@ Blockly.Blocks['connect_to_amp'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": Blockly.Msg.MOTION_MOVESTEPS,
+      "message0": Blockly.Msg.CONNECT_TO_AMP,
       "args0": [
         {
           "type": "input_value",
           "name": "Amplifier"
         }
       ],
-      "category": Blockly.Categories.motion,
+      "category": Blockly.Categories.BCI,
       "extensions": ["colours_motion", "shape_statement"]
     });
   }

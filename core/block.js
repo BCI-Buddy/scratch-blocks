@@ -222,28 +222,28 @@ Blockly.Block.prototype.data = null;
  * @type {string}
  * @private
  */
-Blockly.Block.prototype.colour_ = '#FF0000';
+Blockly.Block.prototype.colour_ = '#000000';
 
 /**
  * Secondary colour of the block in '#RRGGBB' format.
  * @type {string}
  * @private
  */
-Blockly.Block.prototype.colourSecondary_ = '#FF0000';
+Blockly.Block.prototype.colourSecondary_ = '#000000';
 
 /**
  * Tertiary colour of the block in '#RRGGBB' format.
  * @type {string}
  * @private
  */
-Blockly.Block.prototype.colourTertiary_ = '#FF0000';
+Blockly.Block.prototype.colourTertiary_ = '#000000';
 
 /**
  * Quaternary colour of the block in '#RRGGBB' format.
  * @type {string}
  * @private
  */
-Blockly.Block.prototype.colourQuaternary = '#FF0000';
+Blockly.Block.prototype.colourQuaternary = '#000000';
 
 /**
  * Fill colour used to override default shadow colour behaviour.
