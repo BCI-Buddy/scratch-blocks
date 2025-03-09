@@ -18,6 +18,10 @@ environments.
 
 *This project is in active development and should be considered a "developer preview" at this time.*
 
+## Important Notes:
+
+When testing new blocks/changed blocks for BCI Buddy, check the functionality of them in `vertical_playground.html`
+
 ## Two Types of Blocks
 
 ![A divided image showing horizontal blocks on the left and vertical blocks on the right](https://cloud.githubusercontent.com/assets/747641/15255731/dad4d028-190b-11e6-9c16-8df7445adc96.png)
