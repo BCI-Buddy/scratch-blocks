@@ -354,4 +354,7 @@ Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
 //BCI Messages
-Blockly.Msg.CONNECT_TO_AMP = "connect to %1 amp";
+Blockly.Msg.CONNECT_TO_AMP = "Connect to an Axon Amplifier \n %1";
+Blockly.Msg.VISUALIZE_SIGNALS = "Visualize signals using \n %1";
+Blockly.Msg.CLASSIFY_SIGNALS = "Classify EMG Signals \n %1";
+Blockly.Msg.MAKE_BUDDY_DANCE = "Make Buddy Dance! \n %1";

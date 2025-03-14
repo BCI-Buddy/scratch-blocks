@@ -522,6 +522,27 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
   '</category>' +
   '<category name="BCI" id="BCI" colour="#4C97FF" secondaryColour="#3373CC">' +
     '<block type="connect_to_amp" id="connect_to_amp">' +
+        '<value name="Amplifier">' +
+          '<shadow type="math_number">' +
+            '<field name="NUM">10</field>' +
+          '</shadow>' +
+        '</value>' +
+      '</block>' +
+      '<block type="visualize_signals" id="visualize_signals">' +
+        '<value name="STEPS">' +
+          '<shadow type="math_number">' +
+            '<field name="NUM">10</field>' +
+          '</shadow>' +
+        '</value>' +
+      '</block>' +
+      '<block type="classify_signals" id="classify_signals">' +
+        '<value name="STEPS">' +
+          '<shadow type="math_number">' +
+            '<field name="NUM">10</field>' +
+          '</shadow>' +
+        '</value>' +
+      '</block>' +
+      '<block type="make_buddy_dance" id="make_buddy_dance">' +
         '<value name="STEPS">' +
           '<shadow type="math_number">' +
             '<field name="NUM">10</field>' +
