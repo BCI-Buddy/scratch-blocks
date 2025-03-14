@@ -520,6 +520,15 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
   '</category>' +
   '<category name="%{BKY_CATEGORY_VARIABLES}" id="data" colour="#FF8C1A" secondaryColour="#DB6E00" custom="VARIABLE">' +
   '</category>' +
+  '<category name="BCI" id="BCI" colour="#4C97FF" secondaryColour="#3373CC">' +
+    '<block type="connect_to_amp" id="connect_to_amp">' +
+        '<value name="STEPS">' +
+          '<shadow type="math_number">' +
+            '<field name="NUM">10</field>' +
+          '</shadow>' +
+        '</value>' +
+      '</block>' +
+  '</category>' +
   '<category name="%{BKY_CATEGORY_MYBLOCKS}" id="more" colour="#FF6680" secondaryColour="#FF4D6A" custom="PROCEDURE">' +
   '</category>' +
   '<category name="Extensions" id="extensions" colour="#FF6680" secondaryColour="#FF4D6A" ' +

@@ -19,15 +19,15 @@
  */
 
 'use strict';
-
+goog.provide('Blockly.Blocks.BCI');
 goog.require('Blockly.Blocks');
 goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
-goog.require('Blockly.ScratchBlocks.VerticalExtensions');
+
 
 Blockly.Blocks['connect_to_amp'] = {
   /**
-   * Block to move steps.
+   * Block to connect to amplifier.
    * @this Blockly.Block
    */
   init: function() {

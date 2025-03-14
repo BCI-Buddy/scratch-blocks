@@ -354,4 +354,4 @@ Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
 //BCI Messages
-Blockly.Msg.CONNECT_TO_AMP = "connect to amp";
+Blockly.Msg.CONNECT_TO_AMP = "connect to %1 amp";
